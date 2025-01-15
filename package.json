@@ -1,0 +1,30 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Learning jwt auth in node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "devAuth":"nodemon authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirrhaq/jwt-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasirrhaq/jwt-auth/issues"
+  },
+  "homepage": "https://github.com/yasirrhaq/jwt-auth#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
